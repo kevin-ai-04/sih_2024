@@ -103,15 +103,15 @@ def main(page: ft.Page):
 
             save_obj(vertices, faces)
 
-            # # Optional: Display the 3D model using trimesh
-            # try:
-            #     # Convert faces to 0-based indexing for trimesh
-            #     trimesh_faces = np.array(faces) - 1
+            # Optional: Display the 3D model using trimesh
+            try:
+                # Convert faces to 0-based indexing for trimesh
+                trimesh_faces = np.array(faces) - 1
 
-            #     mesh = trimesh.Trimesh(vertices=np.array(vertices), faces=trimesh_faces)
-            #     mesh.show()
-            # except Exception as e:
-            #     print(f"Error displaying 3D model: {e}")
+                mesh = trimesh.Trimesh(vertices=np.array(vertices), faces=trimesh_faces)
+                mesh.show()
+            except Exception as e:
+                print("")
 
     # Create a FilePicker control
     file_picker = ft.FilePicker(on_result=dialog_picker)
