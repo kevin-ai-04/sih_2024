@@ -1,4 +1,4 @@
-# 3D_Floors
+# RenderRidge
 
 ### Abstract
 Develop software that converts 2D blueprints of buildings into 3D walkthrough models for NSG operations, enhancing situational awareness and efficiency.
