@@ -85,6 +85,6 @@ pyglet
 - [Kevin Abey Issac](https://github.com/kevin-ai-04)
 - [Shiv Sanjay](https://github.com/Shivsay)
 - [Anand Pillai](https://github.com/anandPILLAI04)
-- [Rizwan Shahjahan](https://github.com/rizzwaaaan)
-- [Aditya Smitha Raj](https://github.com/Adhithya070)
+- [Rizwan Shajahan](https://github.com/rizzwaaaan)
+- [Adhithya Smitha Raj](https://github.com/Adhithya070)
 - [Sraddha S](https://github.com/sraddhas)
