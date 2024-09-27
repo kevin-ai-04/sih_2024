@@ -97,7 +97,8 @@ def main(page: ft.Page):
 
                 # Automatically open the 3D file using the system's default application
                 if os.name == 'posix':  # macOS or Linux
-                    subprocess.run(['open', filename])
+                    #subprocess.run(['open', filename])
+                    print("OBJ file created successfully!!")
                 elif os.name == 'nt':  # Windows
                     os.startfile(filename)
 
